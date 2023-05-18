@@ -1,0 +1,165 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hom_page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+     
+    
+    <script src="home.js"></script>
+    <title>Document</title>
+ </head>
+ <body>
+    <nav class="navbar">
+        <div class="navbox">
+            <div class="first-nav">
+                <a class="navbar-brand" href="#"><img src="./image/netflixxx.png" height="80px"  class="logo"></a>
+                <ul class="menu-list">
+                    <li class="item">Home</li>
+                    <li class="item">T.V show</li>
+                    <li class="item">MOvie</li>
+                    <li class="item">New&Popular</li>
+                    <li class="item">My List</li>
+                    <li class="item">Language</li>
+                </ul>
+            </div>
+            <div class="second-nav">
+                <div>
+                <input type="text" placeholder="Title,People..." class="search-bar">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+              </div>
+              <span  ><h3>~RACHIT</h3></span>
+                <img src="./image/chil.png" style="margin-left: 10px; ">
+            </div>
+        </div>
+    </nav>
+
+    <div class="body-page">
+        <!--front page-->
+        <div class="front-page">
+            <!--"https://www.youtube.com/embed/_InqQJRqGW4?vq=hd1080&autoplay=1&mute=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1"-->
+            <iframe class="ifram" src="https://www.youtube.com/embed/_InqQJRqGW4?vq=hd1080&autoplay=1&mute=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1" width="1520px" height="850px" title="Money Heist | Series Trailer | Netflix" frameborder="0"></iframe>
+            <!--front-page about-->
+            <div class="front-page-data">
+                <img src="./image/netflix.png" height="50px"> SERIES<br><br>
+                <div class="title"><img src="https://see.fontimg.com/api/renderfont4/mLE25/eyJyIjoiZnMiLCJoIjo2MSwidyI6MTI1MCwiZnMiOjQ5LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0NFN0E3QSIsInQiOjF9/TU9ORVkgSEVJU1Q/blacknorthdemo.png"></div><br>
+                <h3 style="color:white;">Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.</h3><br>
+                <div class="button">
+
+                    <div class="play" onclick="play()"><img src="./image/play.png" height="20px">  PLAY</div>
+                    <div class="info">MOre Info</div>
+                </div>
+            </div>
+
+            <!--slider1 page-->
+            <div class="slider1">
+                <h2>Trending Now</h2>
+                <div class="slider1-item">
+                    <div class="row1" style="display:flex;">
+                    <div class="slider-item1"><img src="./image/walkingdead.webp"></div>
+                    <div class="slider-item2"><img src="./image/elite.jpg"></div>
+                    <div class="slider-item3"><img src="./image/unaliving.jpg"></div>
+                    <div class="slider-item4"><img src="./image/wednesday.jpg"></div>
+                    <div class="next" onclick="next()"><img src="./image/next.png" height="80px" style="padding-top:70px;"></div>
+                    </div>
+                    <div class="row2" style="display:none;">
+                    <div class="next" onclick="prev()"><img src="./image/back.png" height="80px" style="padding-top:70px;"></div>
+                    <div class="slider-item5"><img src="./image/qos.webp"></div>
+                    <div class="slider-item6"><img src="./image/witcher.jpg"></div>
+                  </div>
+                </div>
+                <br>
+                <!--slider2-->
+                <div class="slider3">
+                    <h2>Continue Watching </h2>
+                    <div class="slider3-item">
+                    <div class="slider3-item1"><img src="./image/bad.webp"></div>
+                    <div class="slider3-item2"><img src="./image/boy.jpg"></div>
+                    <div class="slider3-item3"><img src="./image/to.jpg"></div>
+                    <div class="slider3-item4"><img src="./image/perfect.jpg"></div>
+                    </div>
+                </div>
+                <br>
+                <!--slider3-->
+                <div class="slider2">
+                    <h2>Top & Popular</h2>
+                    <div class="slider2-item">
+                    <div class="slider2-item1"><img src="./image/umbrella.jpg"></div>
+                    <div class="slider2-item2"><img src="./image/narco.jpg"></div>
+                    <div class="slider2-item3"><img src="./image/life.jpg"></div>
+                    <div class="slider2-item4"><img src="./image/doctor.webp"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="footer">
+        <span style="color:whitesmoke"><center>loading...</center></span><br><br><br> 
+        <div class="socialmedia" style="padding-left: 42%;">
+            <section class="mb-4" >
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+              </section>
+              <!-- Section: Social media --></div><br><br>
+              <div class="mb-4" style="display: flex; justify-content: space-around;">
+                <div style="color:aliceblue; width: 50%;">
+                    Netflix is one of the world's leading entertainment services with over 232 million paid memberships in over 190
+                     countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, 
+                     pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.
+                </div>
+                <div class="links">
+                    <ul style="color:gray; font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;list-style: none;">
+                        <li>About</li>
+                        <li>Help center</li>
+                        <li>Jobs</li>
+                        <li>Service</li>
+                    </ul>
+                </div>
+                <div class="links2">
+                    <ul style="color:gray; font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;list-style: none;">
+                        <li>Gift card</li>
+                        <li>Term of use</li>
+                        <li>Media Centre</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="links3">
+                    <ul style="color:gray; font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; list-style: none;">
+                        <li>Corporate Information</li>
+                        <li>Cookies Preference</li>
+                        <li>Legal Notice</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+            </div>
+              <br><br>
+              <!-- Copyright -->
+  <div class="text-center p-3" style=" color:aliceblue; margin-left: 100px;">
+    © 2020 Copyright:
+    <a class="text-white" href="https://www.netflix.com/">Netflix.com</a>
+  </div>
+  <!-- Copyright -->
+        
+    </div>
+ </body>
+ </html>
